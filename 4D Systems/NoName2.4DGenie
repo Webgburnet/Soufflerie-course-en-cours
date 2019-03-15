@@ -1,0 +1,137 @@
+﻿Version     0.0
+Platform    uLCD-43PT-L
+PlatRes     272x480
+Depends
+end
+Options
+    Genie
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    DestBank                     0
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 No
+end
+Form
+    Name                         Form0
+    Alias                        Form0
+    Bgtype                       Color
+    Color                        NAVY
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits0
+    Alias                        Leddigits0
+    Color                        NAVY
+    Decimals                     0
+    Digits                       2
+    Height                       68
+    LeadingZero                  Yes
+    Left                         60
+    OutlineColor                 NAVY
+    Palette.High                 YELLOW
+    Palette.Low                  NAVY
+    Top                          36
+    Width                        98
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext0
+    Alias                        Statictext0
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      T°
+    Color                        BLACK
+    Font.Color                   YELLOW
+    Font.Effects                 []
+    Font.Name                    'Comic Sans MS'
+    Font.Size                    36
+    Font.Style                   [Bold]
+    Height                       67
+    Left                         0
+    Top                          36
+    Transparent                  Yes
+    Width                        62
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext3
+    Alias                        Statictext3
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'PROJET STI2D'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Comic Sans MS'
+    Font.Size                    22
+    Font.Style                   [Bold]
+    Height                       39
+    Left                         0
+    Top                          0
+    Transparent                  Yes
+    Width                        478
+    WordWrap                     Yes
+end
+Timer
+    Name                         Timer0
+    Alias                        Timer0
+    Enabled                      Yes
+    Interval                     40
+    OnTimer                      ''
+end
+LedDigits
+    Name                         Leddigits1
+    Alias                        Leddigits1
+    Color                        NAVY
+    Decimals                     0
+    Digits                       2
+    Height                       68
+    LeadingZero                  Yes
+    Left                         176
+    OutlineColor                 NAVY
+    Palette.High                 YELLOW
+    Palette.Low                  NAVY
+    Top                          36
+    Width                        98
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext1
+    Alias                        Statictext1
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      .
+    Color                        BLACK
+    Font.Color                   YELLOW
+    Font.Effects                 []
+    Font.Name                    'Comic Sans MS'
+    Font.Size                    36
+    Font.Style                   [Bold]
+    Height                       67
+    Left                         152
+    Top                          44
+    Transparent                  Yes
+    Width                        21
+    WordWrap                     Yes
+end
