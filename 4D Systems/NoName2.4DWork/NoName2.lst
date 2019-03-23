@@ -1,6 +1,6 @@
-file C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS
+file P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS
 
-file F:\Programmation\4D Labs\4D Workshop 4 IDE\include\uLCD-43PT.fnc
+file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\uLCD-43PT.fnc
 
 000001  000001  #platform "uLCD-43PT"
 000002  000001  #platform "uLCD-43PT"
@@ -9,7 +9,7 @@ file F:\Programmation\4D Labs\4D Workshop 4 IDE\include\uLCD-43PT.fnc
 000005  000009      #constant uLCD_43PT_GFX2
 000006  000010        
 000007  000011      #IFNOT EXISTS PICASO_FUNCTIONS
-file F:\Programmation\4D Labs\4D Workshop 4 IDE\include\PicasoFunctions.fnc
+file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\PicasoFunctions.fnc
 
 000008  000012          #inherit "PicasoFunctions.fnc"        // inherit the generic functions
 000009  000012          #inherit "PicasoFunctions.fnc"        // inherit the generic functions
@@ -2835,11 +2835,11 @@ file F:\Programmation\4D Labs\4D Workshop 4 IDE\include\PicasoFunctions.fnc
 002829  000112        
 002830  000002        
 002831  000003        
-002832  000004  // generated 12/03/2019 21:16:10
+002832  000004  // generated 21/03/2019 15:00:38
 002833  000005        
 002834  000006  #MODE RUNFLASH
 002835  000007        
-file F:\Programmation\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
+file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
 
 002836  000008  #inherit "4DGL_16bitColours.fnc"
 002837  000008  #inherit "4DGL_16bitColours.fnc"
@@ -2851,7 +2851,7 @@ file F:\Programmation\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
 002843  000149  #END
 002844  000150        
 002845  000009        
-file F:\Programmation\4D Labs\4D Workshop 4 IDE\include\VisualConst.inc
+file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\VisualConst.inc
 
 002846  000010  #inherit "VisualConst.inc"
 002847  000010  #inherit "VisualConst.inc"
@@ -2870,21 +2870,21 @@ file F:\Programmation\4D Labs\4D Workshop 4 IDE\include\VisualConst.inc
 002860  000007  #constant  LPSOLID     0x0000
 002861  000011        
 002862  000012        
-file C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2Const.inc
+file P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2Const.inc
 
 002863  000013  #inherit "NoName2Const.inc"
 002864  000013  #inherit "NoName2Const.inc"
-002865  000001  // File generated 12/03/2019 21:16:10
+002865  000001  // File generated 21/03/2019 15:00:38
 002866  000002  // Warning! This is a generated file, any manual changes will be
 002867  000003  // lost during the next generation.
 002868  000004        
 002869  000005  // object indexes into ImageControl
 002870  000006  #CONST
-002871  000014  #END
-002872  000015        
-002873  000016  #IFNOT EXISTS NOGLOBALS
-002874  000017  var hndl ;
-002875  000018  #ENDIF
+002871  000038  #END
+002872  000039        
+002873  000040  #IFNOT EXISTS NOGLOBALS
+002874  000041  var hndl ;
+002875  000042  #ENDIF
 002876  000014        
 002877  000015        
 002878  000016  #constant IPDatasize 22
@@ -2896,521 +2896,639 @@ file C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2Con
 002884  000024  #CONST
 002885  000129  #END
 002886  000130        
-002887  000179  #END
-2888  0082
-2889  0083
-2890  0084
-2891  0085
-2892  0086
-2893  0087
-2894  0088
-2895  0089
-2896  008A
-2897  008B
-2898  008C
-2899  008D
-2900  008E
-2901  008F
-2902  0090
-2903  0091
-2904  0092
-2905  0093
-2906  0094
-2907  0095
-2908  0096
-2909  0097
-2910  0098
-2911  0099
-2912  009A
-2913  009B
-2914  009C
-2915  009D
-2916  009E
-2917  009F
-2918  00A0
-2919  00A1
-2920  00A2
-2921  00A3
-2922  00A4
-2923  00A5
-2924  00A6
-2925  00A7
-2926  00A8
-2927  00A9
-2928  00AA
-2929  00AB
-2930  00AC
-2931  00AD
-2932  00AE
-2933  00AF
-2934  00B0
-2935  00B1
-2936  00B2
-2937  00B3
-2938  00B4
-2939  00B5
-2940  00B6
-2941  00B7
-2942  00B8
-2943  00B9
-2944  00BA
-2945  00BB
-2946  00BC
-2947  00BD
-2948  00BE
-2949  00BF
-2950  00C0
-2951  00C1
-2952  00C2
-2953  00C3
-2954  00C4
-2955  00C5
-2956  00C6
-2957  00C7
-2958  00C8
-2959  00C9
-2960  00CA
-2961  00CB
-2962  00CC
-2963  00CD
-2964  00CE
-2965  00CF
-2966  00D0
-2967  00D1
-2968  00D2
-2969  00D3
-2970  00D4
-2971  00D5
-2972  00D6
-2973  00D7
-2974  00D8
-2975  00D9
-2976  00DA
-2977  00DB
-2978  00DC
-2979  00DD
-2980  00DE
-2981  00DF
-2982  00E0
-2983  00E1
-2984  00E2
-2985  00E3
-2986  00E4
-2987  00E5
-2988  00E6
-2989  00E7
-2990  00E8
-2991  00E9
-2992  00EA
-2993  00EB
-2994  00EC
-2995  00ED
-2996  00EE
-2997  00EF
-2998  00F0
-2999  00F1
-3000  00F2
-3001  00F3
-3002  00F4
-3003  00F5
-3004  00F6
-3005  00F7
-3006  00F8
-3007  00F9
-3008  00FA
-3009  00FB
-3010  00FC
-3011  00FD
-003012  000180        
-003013  000181  // Start P2.inc
-003014  000182  var oObjects[MaxTotObjects+1] ;                 // address of objects
-003015  000183  var CurrentForm, oldn, ImageTouched ;
-003016  000184  var TouchXpos, TouchYpos ;
-003017  000185  var InputType, TouchState, CurInputData, pInputIndex ;
-003018  000186  var comRX[40], cmd[CMDLenMAX] ;
-003019  000187        
-003020  000188  var InputCS, OutputCS ;
-003021  000189        
-003022  000190        
-003023  000191        
-003024  000192  func seroutCS(var op)
-003025  000193      serout(op) ;
-003026  000194      OutputCS ^= op ;
-003027  000195  endfunc
-003028  000196        
-003029  000197  func nak0()
-003030  000198      serout(NAK) ;
-003031  000199      InputCS := 0 ;
-003032  000200  endfunc
-003033  000201        
-003034  000202  func seroutOcs()
-003035  000203      serout(OutputCS) ;
-003036  000204      OutputCS := 0 ;
-003037  000205  endfunc
-003038  000206        
-003039  000207  func SendReport(var id, var objt, var objn, var val)
-003040  000208      seroutCS(id) ;
-003041  000209      seroutCS(objt) ;
-003042  000210      seroutCS(objn) ;
-003043  000211      seroutCS(val >> 8) ; // first 8 bits
-003044  000212      seroutCS(val) ;
-003045  000213      seroutOcs() ;
-003046  000214  endfunc
-003047  000215        
-003048  000216        
-003049  000217  func ReadObject(var ObjectType, var ObjectIdx)
-003050  000218      var j, k, Objects ;
-003051  000219      Objects := *(oObjects+ObjectType) ;
-003052  000220        
-003053  000221      j := 2 + ObjectIdx * 2 + Objects ;
-003054  000222       if (ObjectType == tForm)
-003055  000223          k := CurrentForm ;
-003056  000224      else if ((ObjectType == tCustomdigits) || (ObjectType == tLeddigits))
-003057  000225          k := img_GetWord(hndl, *j, IMAGE_TAG2);
-003058  000226          else
-003059  000227          k := img_GetWord(hndl, *j, IMAGE_INDEX);
-003060  000228      endif
-003061  000229      SendReport(REPORT_OBJ, ObjectType, ObjectIdx, k) ;
-003062  000230  endfunc
-003063  000231        
-003064  000232        
-003065  000233  func WriteObject(var ObjectType, var ObjectIdx, var NewVal)
-003066  000234      var i, j, k, Objects ;
-003067  000235      ObjectType &= 0x3f ;
-003068  000236      if (ObjectType == tForm)
-003069  000237          ActivateForm(ObjectIdx) ;
-003070  000238      else
-003071  000239          Objects := *(oObjects+ObjectType)+ObjectIdx*2+2 ;
-003072  000240          i := *(Objects) ;
-003073  000241           if (ObjectType == tLeddigits)
-003074  000242              img_SetWord(hndl, i , IMAGE_TAG2, NewVal); // where state is 0 to 2
-003075  000243              ledDigitsDisplay(i, oLeddigitss, oLedDigitsn) ;
-003076  000244          else
-003077  000245              img_SetWord(hndl, i , IMAGE_INDEX, NewVal); // where state is 0 to 2
-003078  000246              img_Show(hndl, i) ; // will only display if form is current
-003079  000247          endif
-003080  000248      endif
-003081  000249  endfunc
-003082  000250        
-003083  000251        
-003084  000252        
-003085  000253  // WARNING, this code will crash if newval exceeds maximum displayable number
-003086  000254  func ledDigitsDisplay(var imgidx, var typeptr, var setptr)
-003087  000255      var i, j, k, l, lb, newval, num[4] ;
-003088  000256      if (!((img_GetWord(hndl, imgidx, IMAGE_FLAGS) & I_ENABLED))) return ;  // ;img_GetWord(hndl, imgidx, IMAGE_TAG2) ;if diabled then exit
-003089  000257      newval := img_GetWord(hndl, imgidx, IMAGE_TAG2) ;
-003090  000258      i := -1 ;
-003091  000259      j := *(typeptr) ;
-003092  000260      repeat
-003093  000261          typeptr += 2 ;
-003094  000262          i++ ;
-003095  000263          until (*(typeptr) == imgidx);
-003096  000264      j := setptr + i*10 ;
-003097  000265        
-003098  000266      l := 0x500a | (*(j+Ofs_Digits_Digits) << 8) ;       // UDECxZ
-003099  000267      to(num) ;
-003100  000268      putnum(l, newval) ;
-003101  000269      imgidx++ ;
-003102  000270      lb := *(j+Ofs_Digits_LeadingBlanks) ;
-003103  000271      l := str_Ptr(num) ;
-003104  000272      for (i := 0; i < *(j+Ofs_Digits_Digits); i++)
-003105  000273          k := str_GetByte(l++) & 0x0f ;
-003106  000274          if ( lb && (i < *(j+Ofs_Digits_Digits) - *(j+Ofs_Digits_MinDigits)) )
-003107  000275              if (k == 0)
-003108  000276                  k := 10 ;
-003109  000277              else
-003110  000278                  lb := 0 ;
-003111  000279              endif
-003112  000280          endif
-003113  000281          img_SetWord(hndl, imgidx, IMAGE_INDEX, k);
-003114  000282          img_SetWord(hndl, imgidx, IMAGE_XPOS, *(j+Ofs_Digits_Left)+i* *(j+Ofs_Digits_Widthdigit)) ;
-003115  000283          img_Show(hndl, imgidx);
-003116  000284      next
-003117  000285  endfunc
-003118  000286        
-003119  000287        
-003120  000288  func ActivateForm(var newform)
-003121  000289      var i, j, *p ;
-003122  000290        
-003123  000291      if (CurrentForm != -1) // deactivate old form, by disabling all inputs
-003124  000292          for (i := FormStartIndex[CurrentForm]; i <= FormEndIndex[CurrentForm]; i++)
-003125  000293              if (img_GetWord(hndl, i, IMAGE_TAG))
-003126  000294                  img_Disable(hndl,i) ;
-003127  000295              endif
-003128  000296          next
-003129  000297      endif
-003130  000298      CurrentForm := newform ;
-003131  000299      // display newform image or clear to image color
-003132  000300      if (FormBGcolors[CurrentForm] != ColorBGimage)
-003133  000301          gfx_Set(BACKGROUND_COLOUR,FormBGcolors[CurrentForm]);
-003134  000302          gfx_Cls() ;
-003135  000303          DoGFXObjects() ;                                    // display GFX 'widgets'
-003136  000304      endif
-003137  000305        
-003138  000306      // enable inputs
-003139  000307      for (i := FormStartIndex[CurrentForm]; i < FormEndIndex[CurrentForm]; i++)
-003140  000308          j := img_GetWord(hndl, i, IMAGE_TAG) ;
-003141  000309          if (j)
-003142  000310              j-- ;
-003143  000311              img_SetAttributes(hndl, i, I_STAYONTOP+I_ENABLED);        // make sure this is on top of form, if applicable
-003144  000312              //if (j != tKeyboard)
-003145  000313              if ((j <= tWinButton) || (j >= t4Dbutton) )               // enable inputs
-003146  000314                  img_ClearAttributes(hndl, i, I_TOUCH_DISABLE);        // ensure touch is enabled
-003147  000315              endif
-003148  000316              img_Show(hndl,i) ; // show initialy, if required
-003149  000317              if (j == tForm)
-003150  000318                  DoGFXObjects() ;                                    // display GFX 'widgets' for image backgruobds
-003151  000319              else if (j == tLeddigits)
-003152  000320                  ledDigitsDisplay(i, oLeddigitss, oLedDigitsn) ;
-003153  000321              endif
-003154  000322          endif
-003155  000323      next
-003156  000324        
-003157  000325  endfunc
-003158  000326        
-003159  000327  func UpdateObjects(var newval)
-003160  000328      var IPidx, otherOBJ ;
-003161  000329      if ( ( img_GetWord(hndl, *(pInputIndex), IMAGE_INDEX) != newval) || (TouchState == Ofs_IPD_RELEASE) ) // only bother if values changed, or release
-003162  000330        
-003163  000331          img_SetWord(hndl, *(pInputIndex), IMAGE_INDEX, newval);
-003164  000332              img_Show(hndl, *(pInputIndex));      // only shows on current form
-003165  000333          IPidx := *(CurInputData+TouchState) ;
-003166  000334          while(IPidx != 0)
-003167  000335              otherOBJ := IPidx + InputData;
-003168  000336              if (*(otherOBJ) == OT_REPORT)
-003169  000337          SendReport(REPORT_EVENT, InputType, *(otherOBJ+Ofs_IPD_OBJVIDX), newval) ;
-003170  000338              else if (*(otherOBJ) == OT_MAGIC)
-003171  000339                  IPidx := *(otherOBJ+Ofs_IPD_P5) ;
-003172  000340                  IPidx(newval) ;
-003173  000341              else if (TouchState == *(otherOBJ+Ofs_IPD_P4))
-003174  000342                  if (*(otherOBJ) == OT_ACTIVATE)
-003175  000343                      ActivateForm(*(otherOBJ+Ofs_IPD_P2) ) ;
-003176  000344                      InputType := tForm ;
-003177  000345                  else if (*(otherOBJ) == OT_SETCONST)
-003178  000346                      newval := *(otherOBJ+Ofs_IPD_P3) ;
-003179  000347                      WriteObject(*(otherOBJ+Ofs_IPD_P1), *(otherOBJ+Ofs_IPD_P2), newval) ;
-003180  000348                  else if (*(otherOBJ) == OT_SETANOTHER)
-003181  000349                      WriteObject(*(otherOBJ+Ofs_IPD_P1), *(otherOBJ+Ofs_IPD_P2), newval) ;
-003182  000350                  else if (*(otherOBJ) == OT_PREVFRAME)
-003183  000351                      if (img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX))
-003184  000352                          WriteObject(*(otherOBJ+Ofs_IPD_P5),*(otherOBJ+Ofs_IPD_P2),img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX)-1) ;
-003185  000353                      endif
-003186  000354                      newval := img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX) ;
-003187  000355                  else if (*(otherOBJ) == OT_NEXTFRAME)
-003188  000356                      if (img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX) < *(otherOBJ+Ofs_IPD_P3))
-003189  000357                          WriteObject(*(otherOBJ+Ofs_IPD_P5),*(otherOBJ+Ofs_IPD_P2),img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX)+1) ;
-003190  000358                      endif
-003191  000359                      newval := img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX) ;
-003192  000360                  endif
-003193  000361              endif
-003194  000362              IPidx := *(otherOBJ+TouchState) ;
-003195  000363          wend
-003196  000364      endif
-003197  000365  endfunc
-003198  000366        
-003199  000367  // End P2.inc
-003200  000368  func DoGFXObjects()
-003201  000369  endfunc
-003202  000370        
-003203  000371  // Start P3.inc
-003204  000372  func main()
-003205  000373      var comTX[50], cmdi, i, j, TouchStatus ;
-003206  000374        
-003207  000375        
-003208  000376      gfx_ScreenMode(LANDSCAPE) ;
-003209  000377        
-003210  000378      putstr("Mounting...\n");
-003211  000379      if (!(file_Mount()))
-003212  000380          while(!(file_Mount()))
-003213  000381              putstr("Drive not mounted...");
-003214  000382              pause(200);
-003215  000383              gfx_Cls();
-003216  000384              pause(200);
-003217  000385          wend
-003218  000386      endif
-003219  000387  //    gfx_MoveTo(0, 0);
-003220  000388  //    print(mem_Heap()," ") ;
-003221  000389  //    gfx_TransparentColour(0x0020);
-003222  000390  //    gfx_Transparency(ON);
-003223  000391        
-003224  000392      // open image control
-003225  000393      hndl := file_LoadImageControl("NONAME~2.dat", "NONAME~2.gci", 1);
-003226  000394        
-003227  000395      // init 'constants'
-003228  000396  // End P3.inc
-003229  000397        
-003230  000398      oObjects[tDipSwitch] := oDipSwitchs ;
-003231  000399      oObjects[tKnob] := oKnobs ;
-003232  000400      oObjects[tRockerSwitch] := oRockerSwitchs ;
-003233  000401      oObjects[tRotarySwitch] := oRotarySwitchs ;
-003234  000402      oObjects[tGSlider] := oGSliders ;
-003235  000403      oObjects[tTrackbar] := oTrackbars ;
-003236  000404      oObjects[tWinButton] := oWinButtons ;
-003237  000405      oObjects[tAngularmeter] := oAngularmeters ;
-003238  000406      oObjects[tCoolgauge] := oCoolgauges ;
-003239  000407      oObjects[tCustomdigits] := oCustomdigitss ;
-003240  000408      oObjects[tForm] := oForms ;
-003241  000409      oObjects[tGauge] := oGauges ;
-003242  000410      oObjects[tImage] := oImages ;
-003243  000411      oObjects[tKeyboard] := oKeyboards ;
-003244  000412      oObjects[tLed] := oLeds ;
-003245  000413      oObjects[tLeddigits] := oLeddigitss ;
-003246  000414      oObjects[tMeter] := oMeters ;
-003247  000415      oObjects[tStrings] := oStringss ;
-003248  000416      oObjects[tThermometer] := oThermometers ;
-003249  000417      oObjects[tUserled] := oUserleds ;
-003250  000418      oObjects[tVideo] := oVideos ;
-003251  000419      oObjects[tStaticText] := oStaticTexts ;
-003252  000420      oObjects[tSounds] := oSoundss ;
-003253  000421      oObjects[tTimer] := oTimers ;
-003254  000422      oObjects[tSpectrum] := oSpectrums ;
-003255  000423      oObjects[tTank] := oTanks ;
-003256  000424      oObjects[tUserImages] := oUserImagess ;
-003257  000425      oObjects[tPinOutput] := oPinOutputs ;
-003258  000426      oObjects[tPinInput] := oPinInputs ;
-003259  000427      oObjects[t4Dbutton] := o4Dbuttons ;
-003260  000428      oObjects[tAniButton] := oAniButtons ;
-003261  000429      oObjects[tColorPicker] := oColorPickers ;
-003262  000430      oObjects[tUserButton] := oUserButtons ;
-003263  000431  // Start P4.inc
-003264  000432      // init comms
-003265  000433      com_Init(comRX,CMDLenMAX,0);
-003266  000434      com_SetBaud(COM0,960);
-003267  000435      com_TXbuffer(comTX, 100, 0);
-003268  000436      // tag 'real' objects
-003269  000437      for (i := 0; i <= MaxTotObjects; i++)
-003270  000438          if (   (i != tSounds)
-003271  000439              && (i != tTimer)
-003272  000440              && (i != tPinOutput)
-003273  000441              && (i != tPinInput) )
-003274  000442              TouchXpos := oObjects[i] ;
-003275  000443              TouchYpos := *(TouchXpos) ;
-003276  000444              for (ImageTouched := 1; ImageTouched <= TouchYpos; ImageTouched++)
-003277  000445                  oldn := *(TouchXpos+ImageTouched*2) ;
-003278  000446                  img_SetAttributes(hndl, oldn, I_TOUCH_DISABLE);  // ensure touch is enabled
-003279  000447                  if (oldn != -1)
-003280  000448                      img_SetWord(hndl, oldn, IMAGE_TAG, i+1);
-003281  000449                      img_Disable(hndl, oldn) ;
-003282  000450                  endif
-003283  000451              next
-003284  000452          endif
-003285  000453      next
-003286  000454        
-003287  000455      // display initial form
-003288  000456      CurrentForm := -1 ;
-003289  000457  // End P4.inc
-003290  000458  // Start P5.inc
-003291  000459      ActivateForm(0) ; // need to change this according to first actual form
-003292  000460        
-003293  000461  // End P5.inc
-003294  000462  // Start P6.inc
-003295  000463      touch_Set(TOUCH_ENABLE);                            // enable the touch screen
-003296  000464      oldn := -1 ;
-003297  000465      repeat
-003298  000466        
-003299  000467          // check comms for command, how to NAK invalid command
-003300  000468          if (com_Count() != 0)
-003301  000469              i := serin() ;
-003302  000470              InputCS ^= i ;               // update checksum
-003303  000471                  cmd[cmdi++] := i ;
-003304  000472                   if (   (cmd[0] == READ_OBJ)
-003305  000473                           && (cmdi == 4)         )
-003306  000474                      if (InputCS)
-003307  000475                          nak0() ;
-003308  000476                      else
-003309  000477                          ReadObject(cmd[1], cmd[2]) ;
-003310  000478                      endif
-003311  000479                      cmdi := 0 ;
-003312  000480                  else if (   (cmd[0] == WRITE_OBJ)    // 6 byte write command (gen option)
-003313  000481                           && (cmdi == 6)          )
-003314  000482                      if (InputCS)
-003315  000483                          nak0() ;
-003316  000484                      else
-003317  000485                          WriteObject(cmd[1], cmd[2], cmd[3] << 8 + cmd[4]) ;
-003318  000486                          serout(ACK) ;
-003319  000487                      endif
-003320  000488                      cmdi := 0 ;
-003321  000489                  else if (   (cmd[0] == WRITE_CONTRAST)
-003322  000490                           && (cmdi == 3)         )
-003323  000491                      if (InputCS)
-003324  000492                          nak0() ;
-003325  000493                      else
-003326  000494                          gfx_Contrast(cmd[1]) ;
-003327  000495                          serout(ACK) ;
-003328  000496                      endif
-003329  000497                      cmdi := 0 ;
-003330  000498                  else if (cmdi == 6)    // we have 6 bytes and we've gotten here -> something wrong
-003331  000499                      nak0() ;
-003332  000500                      cmdi := 0 ;
-003333  000501                  endif
-003334  000502          endif   // a character is available
-003335  000503        
-003336  000504        
-003337  000505      // touch code processing
-003338  000506        
-003339  000507          TouchStatus := touch_Get(TOUCH_STATUS);               // get touchscreen status
-003340  000508          ImageTouched := img_Touched(hndl,-1) ;
-003341  000509          if ((TouchStatus == TOUCH_PRESSED) || (TouchStatus == TOUCH_RELEASED) || (TouchStatus == TOUCH_MOVING))
-003342  000510              if ((TouchStatus != TOUCH_RELEASED) && (ImageTouched != oldn) && (oldn != -1))
-003343  000511                  TouchStatus := TOUCH_RELEASED ;       // simulate release if we move off object
-003344  000512              endif
-003345  000513              if (TouchStatus != TOUCH_RELEASED)        // if not released
-003346  000514                  if (oldn != -1)
-003347  000515                      ImageTouched := oldn ;
-003348  000516                  else
-003349  000517                      if (oldn != ImageTouched)
-003350  000518                  oldn := ImageTouched ;
-003351  000519                          TouchStatus := TOUCH_PRESSED ;
-003352  000520                      endif
-003353  000521                  endif
-003354  000522                  TouchXpos  := touch_Get(TOUCH_GETX);
-003355  000523                  TouchYpos  := touch_Get(TOUCH_GETY);
-003356  000524                  TouchState := Ofs_IPD_DOWN ;
-003357  000525              else
-003358  000526                  ImageTouched := oldn ;                     // simulate release of what we touched
-003359  000527                  oldn := -1 ;                    // prevent double release
-003360  000528                  TouchState := Ofs_IPD_RELEASE ;
-003361  000529              endif
-003362  000530              if (ImageTouched != -1)
-003363  000531                          CurInputData := InputControls[ImageTouched] + InputData;
-003364  000532                          InputType := *(CurInputData) ;
-003365  000533                          i := InputType ;
-003366  000534                          if (InputType >= t4Dbutton) i -= 23 ; // adjust to ensure next in gosub
-003367  000535                          gosub (i), (cDipswitch, cKnob, cRockerswitch, cRotaryswitch, cSlider, cTrackbar, cWinbutton, c4DButton, cAniButton, cColorPicker, cUserButton) ;
-003368  000536              endif
-003369  000537          endif
-003370  000538   //       if ((n != -1) && (oldn == -1)) oldn := n ;    // save what we touched in case we move off it
-003371  000539        
-003372  000540          sys_EventsResume() ;
-003373  000541      forever
-003374  000542        
-003375  000543  cDipswitch:
-003376  000544        
-003377  000545  cKnob:
-003378  000546        
-003379  000547  cRockerswitch:
-003380  000548        
-003381  000549  cRotaryswitch:
-003382  000550        
-003383  000551  cSlider:
-003384  000552  cTrackbar:
-003385  000553        
-003386  000554  c4DButton:
-003387  000555  cUserButton:
-003388  000556  cWinbutton:
-003389  000557  gbutton:
-003390  000558        
-003391  000559  cAniButton:
-003392  000560        
-003393  000561  cColorPicker:
-003394  000562        
-003395  000563  endfunc
-003396  000564  // End P6.inc
-Notice: local var 'j' in func 'main' is never used (line 373 file:NoName2.4DGenieS)
+002887  000188  #END
+2888  00F8
+2889  00F9
+2890  00FA
+2891  00FB
+2892  00FC
+2893  00FD
+2894  00FE
+2895  00FF
+2896  0100
+2897  0101
+2898  0102
+2899  0103
+2900  0104
+2901  0105
+2902  0106
+2903  0107
+2904  0108
+2905  0109
+2906  010A
+2907  010B
+2908  010C
+2909  010D
+2910  010E
+2911  010F
+2912  0110
+2913  0111
+2914  0112
+2915  0113
+2916  0114
+2917  0115
+2918  0116
+2919  0117
+2920  0118
+2921  0119
+2922  011A
+2923  011B
+2924  011C
+2925  011D
+2926  011E
+2927  011F
+2928  0120
+2929  0121
+2930  0122
+2931  0123
+2932  0124
+2933  0125
+2934  0126
+2935  0127
+2936  0128
+2937  0129
+2938  012A
+2939  012B
+2940  012C
+2941  012D
+2942  012E
+2943  012F
+2944  0130
+2945  0131
+2946  0132
+2947  0133
+2948  0134
+2949  0135
+2950  0136
+2951  0137
+2952  0138
+2953  0139
+2954  013A
+2955  013B
+2956  013C
+2957  013D
+2958  013E
+2959  013F
+2960  0140
+2961  0141
+2962  0142
+2963  0143
+2964  0144
+2965  0145
+2966  0146
+2967  0147
+2968  0148
+2969  0149
+2970  014A
+2971  014B
+2972  014C
+2973  014D
+2974  014E
+2975  014F
+2976  0150
+2977  0151
+2978  0152
+2979  0153
+2980  0154
+2981  0155
+2982  0156
+2983  0157
+2984  0158
+2985  0159
+2986  015A
+2987  015B
+2988  015C
+2989  015D
+2990  015E
+2991  015F
+2992  0160
+2993  0161
+2994  0162
+2995  0163
+2996  0164
+2997  0165
+2998  0166
+2999  0167
+3000  0168
+3001  0169
+3002  016A
+3003  016B
+3004  016C
+3005  016D
+3006  016E
+3007  016F
+3008  0170
+3009  0171
+3010  0172
+3011  0173
+3012  0174
+3013  0175
+3014  0176
+3015  0177
+3016  0178
+3017  0179
+3018  017A
+3019  017B
+3020  017C
+3021  017D
+3022  017E
+3023  017F
+3024  0180
+3025  0181
+3026  0182
+3027  0183
+3028  0184
+3029  0185
+3030  0186
+3031  0187
+3032  0188
+3033  0189
+3034  018A
+3035  018B
+3036  018C
+3037  018D
+3038  018E
+3039  018F
+3040  0190
+3041  0191
+3042  0192
+3043  0193
+3044  0194
+3045  0195
+3046  0196
+3047  0197
+3048  0198
+3049  0199
+3050  019A
+3051  019B
+3052  019C
+3053  019D
+3054  019E
+3055  019F
+3056  01A0
+3057  01A1
+3058  01A2
+3059  01A3
+3060  01A4
+3061  01A5
+3062  01A6
+3063  01A7
+3064  01A8
+3065  01A9
+3066  01AA
+3067  01AB
+3068  01AC
+3069  01AD
+3070  01AE
+3071  01AF
+3072  01B0
+3073  01B1
+3074  01B2
+3075  01B3
+3076  01B4
+3077  01B5
+3078  01B6
+3079  01B7
+3080  01B8
+3081  01B9
+3082  01BA
+3083  01BB
+3084  01BC
+3085  01BD
+3086  01BE
+3087  01BF
+3088  01C0
+3089  01C1
+3090  01C2
+3091  01C3
+3092  01C4
+3093  01C5
+3094  01C6
+3095  01C7
+3096  01C8
+3097  01C9
+3098  01CA
+3099  01CB
+3100  01CC
+3101  01CD
+3102  01CE
+3103  01CF
+3104  01D0
+3105  01D1
+3106  01D2
+3107  01D3
+3108  01D4
+3109  01D5
+3110  01D6
+3111  01D7
+3112  01D8
+3113  01D9
+3114  01DA
+3115  01DB
+3116  01DC
+3117  01DD
+3118  01DE
+3119  01DF
+3120  01E0
+3121  01E1
+3122  01E2
+3123  01E3
+3124  01E4
+3125  01E5
+3126  01E6
+3127  01E7
+3128  01E8
+3129  01E9
+003130  000189        
+003131  000190  // Start P2.inc
+003132  000191  var oObjects[MaxTotObjects+1] ;                 // address of objects
+003133  000192  var CurrentForm, oldn, ImageTouched ;
+003134  000193  var TouchXpos, TouchYpos ;
+003135  000194  var InputType, TouchState, CurInputData, pInputIndex ;
+003136  000195  var comRX[40], cmd[CMDLenMAX] ;
+003137  000196        
+003138  000197  var InputCS, OutputCS ;
+003139  000198        
+003140  000199        
+003141  000200        
+003142  000201  func seroutCS(var op)
+003143  000202      serout(op) ;
+003144  000203      OutputCS ^= op ;
+003145  000204  endfunc
+003146  000205        
+003147  000206  func nak0()
+003148  000207      serout(NAK) ;
+003149  000208      InputCS := 0 ;
+003150  000209  endfunc
+003151  000210        
+003152  000211  func seroutOcs()
+003153  000212      serout(OutputCS) ;
+003154  000213      OutputCS := 0 ;
+003155  000214  endfunc
+003156  000215        
+003157  000216  func SendReport(var id, var objt, var objn, var val)
+003158  000217      seroutCS(id) ;
+003159  000218      seroutCS(objt) ;
+003160  000219      seroutCS(objn) ;
+003161  000220      seroutCS(val >> 8) ; // first 8 bits
+003162  000221      seroutCS(val) ;
+003163  000222      seroutOcs() ;
+003164  000223  endfunc
+003165  000224        
+003166  000225        
+003167  000226  func ReadObject(var ObjectType, var ObjectIdx)
+003168  000227      var j, k, Objects ;
+003169  000228      Objects := *(oObjects+ObjectType) ;
+003170  000229        
+003171  000230      j := 2 + ObjectIdx * 2 + Objects ;
+003172  000231       if (ObjectType == tForm)
+003173  000232          k := CurrentForm ;
+003174  000233      else if ((ObjectType == tCustomdigits) || (ObjectType == tLeddigits))
+003175  000234          k := img_GetWord(hndl, *j, IMAGE_TAG2);
+003176  000235          else
+003177  000236          k := img_GetWord(hndl, *j, IMAGE_INDEX);
+003178  000237      endif
+003179  000238      SendReport(REPORT_OBJ, ObjectType, ObjectIdx, k) ;
+003180  000239  endfunc
+003181  000240        
+003182  000241        
+003183  000242  func WriteObject(var ObjectType, var ObjectIdx, var NewVal)
+003184  000243      var i, j, k, Objects ;
+003185  000244      ObjectType &= 0x3f ;
+003186  000245      if (ObjectType == tForm)
+003187  000246          ActivateForm(ObjectIdx) ;
+003188  000247      else
+003189  000248          Objects := *(oObjects+ObjectType)+ObjectIdx*2+2 ;
+003190  000249          i := *(Objects) ;
+003191  000250           if (ObjectType == tLeddigits)
+003192  000251              img_SetWord(hndl, i , IMAGE_TAG2, NewVal); // where state is 0 to 2
+003193  000252              ledDigitsDisplay(i, oLeddigitss, oLedDigitsn) ;
+003194  000253          else
+003195  000254              img_SetWord(hndl, i , IMAGE_INDEX, NewVal); // where state is 0 to 2
+003196  000255              img_Show(hndl, i) ; // will only display if form is current
+003197  000256          endif
+003198  000257      endif
+003199  000258  endfunc
+003200  000259        
+003201  000260        
+003202  000261        
+003203  000262  // WARNING, this code will crash if newval exceeds maximum displayable number
+003204  000263  func ledDigitsDisplay(var imgidx, var typeptr, var setptr)
+003205  000264      var i, j, k, l, lb, newval, num[4] ;
+003206  000265      if (!((img_GetWord(hndl, imgidx, IMAGE_FLAGS) & I_ENABLED))) return ;  // ;img_GetWord(hndl, imgidx, IMAGE_TAG2) ;if diabled then exit
+003207  000266      newval := img_GetWord(hndl, imgidx, IMAGE_TAG2) ;
+003208  000267      i := -1 ;
+003209  000268      j := *(typeptr) ;
+003210  000269      repeat
+003211  000270          typeptr += 2 ;
+003212  000271          i++ ;
+003213  000272          until (*(typeptr) == imgidx);
+003214  000273      j := setptr + i*10 ;
+003215  000274        
+003216  000275      l := 0x500a | (*(j+Ofs_Digits_Digits) << 8) ;       // UDECxZ
+003217  000276      to(num) ;
+003218  000277      putnum(l, newval) ;
+003219  000278      imgidx++ ;
+003220  000279      lb := *(j+Ofs_Digits_LeadingBlanks) ;
+003221  000280      l := str_Ptr(num) ;
+003222  000281      for (i := 0; i < *(j+Ofs_Digits_Digits); i++)
+003223  000282          k := str_GetByte(l++) & 0x0f ;
+003224  000283          if ( lb && (i < *(j+Ofs_Digits_Digits) - *(j+Ofs_Digits_MinDigits)) )
+003225  000284              if (k == 0)
+003226  000285                  k := 10 ;
+003227  000286              else
+003228  000287                  lb := 0 ;
+003229  000288              endif
+003230  000289          endif
+003231  000290          img_SetWord(hndl, imgidx, IMAGE_INDEX, k);
+003232  000291          img_SetWord(hndl, imgidx, IMAGE_XPOS, *(j+Ofs_Digits_Left)+i* *(j+Ofs_Digits_Widthdigit)) ;
+003233  000292          img_Show(hndl, imgidx);
+003234  000293      next
+003235  000294  endfunc
+003236  000295        
+003237  000296        
+003238  000297  func ActivateForm(var newform)
+003239  000298      var i, j, *p ;
+003240  000299        
+003241  000300      if (CurrentForm != -1) // deactivate old form, by disabling all inputs
+003242  000301          for (i := FormStartIndex[CurrentForm]; i <= FormEndIndex[CurrentForm]; i++)
+003243  000302              if (img_GetWord(hndl, i, IMAGE_TAG))
+003244  000303                  img_Disable(hndl,i) ;
+003245  000304              endif
+003246  000305          next
+003247  000306      endif
+003248  000307      CurrentForm := newform ;
+003249  000308      // display newform image or clear to image color
+003250  000309      if (FormBGcolors[CurrentForm] != ColorBGimage)
+003251  000310          gfx_Set(BACKGROUND_COLOUR,FormBGcolors[CurrentForm]);
+003252  000311          gfx_Cls() ;
+003253  000312          DoGFXObjects() ;                                    // display GFX 'widgets'
+003254  000313      endif
+003255  000314        
+003256  000315      // enable inputs
+003257  000316      for (i := FormStartIndex[CurrentForm]; i < FormEndIndex[CurrentForm]; i++)
+003258  000317          j := img_GetWord(hndl, i, IMAGE_TAG) ;
+003259  000318          if (j)
+003260  000319              j-- ;
+003261  000320              img_SetAttributes(hndl, i, I_STAYONTOP+I_ENABLED);        // make sure this is on top of form, if applicable
+003262  000321              //if (j != tKeyboard)
+003263  000322              if ((j <= tWinButton) || (j >= t4Dbutton) )               // enable inputs
+003264  000323                  img_ClearAttributes(hndl, i, I_TOUCH_DISABLE);        // ensure touch is enabled
+003265  000324              endif
+003266  000325              img_Show(hndl,i) ; // show initialy, if required
+003267  000326              if (j == tForm)
+003268  000327                  DoGFXObjects() ;                                    // display GFX 'widgets' for image backgruobds
+003269  000328              else if (j == tLeddigits)
+003270  000329                  ledDigitsDisplay(i, oLeddigitss, oLedDigitsn) ;
+003271  000330              endif
+003272  000331          endif
+003273  000332      next
+003274  000333        
+003275  000334  endfunc
+003276  000335        
+003277  000336  func UpdateObjects(var newval)
+003278  000337      var IPidx, otherOBJ ;
+003279  000338      if ( ( img_GetWord(hndl, *(pInputIndex), IMAGE_INDEX) != newval) || (TouchState == Ofs_IPD_RELEASE) ) // only bother if values changed, or release
+003280  000339        
+003281  000340          img_SetWord(hndl, *(pInputIndex), IMAGE_INDEX, newval);
+003282  000341              img_Show(hndl, *(pInputIndex));      // only shows on current form
+003283  000342          IPidx := *(CurInputData+TouchState) ;
+003284  000343          while(IPidx != 0)
+003285  000344              otherOBJ := IPidx + InputData;
+003286  000345              if (*(otherOBJ) == OT_REPORT)
+003287  000346          SendReport(REPORT_EVENT, InputType, *(otherOBJ+Ofs_IPD_OBJVIDX), newval) ;
+003288  000347              else if (*(otherOBJ) == OT_MAGIC)
+003289  000348                  IPidx := *(otherOBJ+Ofs_IPD_P5) ;
+003290  000349                  IPidx(newval) ;
+003291  000350              else if (TouchState == *(otherOBJ+Ofs_IPD_P4))
+003292  000351                  if (*(otherOBJ) == OT_ACTIVATE)
+003293  000352                      ActivateForm(*(otherOBJ+Ofs_IPD_P2) ) ;
+003294  000353                      InputType := tForm ;
+003295  000354                  else if (*(otherOBJ) == OT_SETCONST)
+003296  000355                      newval := *(otherOBJ+Ofs_IPD_P3) ;
+003297  000356                      WriteObject(*(otherOBJ+Ofs_IPD_P1), *(otherOBJ+Ofs_IPD_P2), newval) ;
+003298  000357                  else if (*(otherOBJ) == OT_SETANOTHER)
+003299  000358                      WriteObject(*(otherOBJ+Ofs_IPD_P1), *(otherOBJ+Ofs_IPD_P2), newval) ;
+003300  000359                  else if (*(otherOBJ) == OT_PREVFRAME)
+003301  000360                      if (img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX))
+003302  000361                          WriteObject(*(otherOBJ+Ofs_IPD_P5),*(otherOBJ+Ofs_IPD_P2),img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX)-1) ;
+003303  000362                      endif
+003304  000363                      newval := img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX) ;
+003305  000364                  else if (*(otherOBJ) == OT_NEXTFRAME)
+003306  000365                      if (img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX) < *(otherOBJ+Ofs_IPD_P3))
+003307  000366                          WriteObject(*(otherOBJ+Ofs_IPD_P5),*(otherOBJ+Ofs_IPD_P2),img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX)+1) ;
+003308  000367                      endif
+003309  000368                      newval := img_GetWord(hndl, *(otherOBJ+Ofs_IPD_P6), IMAGE_INDEX) ;
+003310  000369                  endif
+003311  000370              endif
+003312  000371              IPidx := *(otherOBJ+TouchState) ;
+003313  000372          wend
+003314  000373      endif
+003315  000374  endfunc
+003316  000375        
+003317  000376  // End P2.inc
+003318  000377  func DoGFXObjects()
+003319  000378  endfunc
+003320  000379        
+003321  000380  // Start P3.inc
+003322  000381  func main()
+003323  000382      var comTX[50], cmdi, i, j, TouchStatus ;
+003324  000383        
+003325  000384        
+003326  000385      gfx_ScreenMode(LANDSCAPE) ;
+003327  000386        
+003328  000387      putstr("Mounting...\n");
+003329  000388      if (!(file_Mount()))
+003330  000389          while(!(file_Mount()))
+003331  000390              putstr("Drive not mounted...");
+003332  000391              pause(200);
+003333  000392              gfx_Cls();
+003334  000393              pause(200);
+003335  000394          wend
+003336  000395      endif
+003337  000396  //    gfx_MoveTo(0, 0);
+003338  000397  //    print(mem_Heap()," ") ;
+003339  000398  //    gfx_TransparentColour(0x0020);
+003340  000399  //    gfx_Transparency(ON);
+003341  000400        
+003342  000401      // open image control
+003343  000402      hndl := file_LoadImageControl("NU7P09~B.dat", "NU7P09~B.gci", 1);
+003344  000403        
+003345  000404      // init 'constants'
+003346  000405  // End P3.inc
+003347  000406        
+003348  000407      oObjects[tDipSwitch] := oDipSwitchs ;
+003349  000408      oObjects[tKnob] := oKnobs ;
+003350  000409      oObjects[tRockerSwitch] := oRockerSwitchs ;
+003351  000410      oObjects[tRotarySwitch] := oRotarySwitchs ;
+003352  000411      oObjects[tGSlider] := oGSliders ;
+003353  000412      oObjects[tTrackbar] := oTrackbars ;
+003354  000413      oObjects[tWinButton] := oWinButtons ;
+003355  000414      oObjects[tAngularmeter] := oAngularmeters ;
+003356  000415      oObjects[tCoolgauge] := oCoolgauges ;
+003357  000416      oObjects[tCustomdigits] := oCustomdigitss ;
+003358  000417      oObjects[tForm] := oForms ;
+003359  000418      oObjects[tGauge] := oGauges ;
+003360  000419      oObjects[tImage] := oImages ;
+003361  000420      oObjects[tKeyboard] := oKeyboards ;
+003362  000421      oObjects[tLed] := oLeds ;
+003363  000422      oObjects[tLeddigits] := oLeddigitss ;
+003364  000423      oObjects[tMeter] := oMeters ;
+003365  000424      oObjects[tStrings] := oStringss ;
+003366  000425      oObjects[tThermometer] := oThermometers ;
+003367  000426      oObjects[tUserled] := oUserleds ;
+003368  000427      oObjects[tVideo] := oVideos ;
+003369  000428      oObjects[tStaticText] := oStaticTexts ;
+003370  000429      oObjects[tSounds] := oSoundss ;
+003371  000430      oObjects[tTimer] := oTimers ;
+003372  000431      oObjects[tSpectrum] := oSpectrums ;
+003373  000432      oObjects[tTank] := oTanks ;
+003374  000433      oObjects[tUserImages] := oUserImagess ;
+003375  000434      oObjects[tPinOutput] := oPinOutputs ;
+003376  000435      oObjects[tPinInput] := oPinInputs ;
+003377  000436      oObjects[t4Dbutton] := o4Dbuttons ;
+003378  000437      oObjects[tAniButton] := oAniButtons ;
+003379  000438      oObjects[tColorPicker] := oColorPickers ;
+003380  000439      oObjects[tUserButton] := oUserButtons ;
+003381  000440  // Start P4.inc
+003382  000441      // init comms
+003383  000442      com_Init(comRX,CMDLenMAX,0);
+003384  000443      com_SetBaud(COM0,960);
+003385  000444      com_TXbuffer(comTX, 100, 0);
+003386  000445      // tag 'real' objects
+003387  000446      for (i := 0; i <= MaxTotObjects; i++)
+003388  000447          if (   (i != tSounds)
+003389  000448              && (i != tTimer)
+003390  000449              && (i != tPinOutput)
+003391  000450              && (i != tPinInput) )
+003392  000451              TouchXpos := oObjects[i] ;
+003393  000452              TouchYpos := *(TouchXpos) ;
+003394  000453              for (ImageTouched := 1; ImageTouched <= TouchYpos; ImageTouched++)
+003395  000454                  oldn := *(TouchXpos+ImageTouched*2) ;
+003396  000455                  img_SetAttributes(hndl, oldn, I_TOUCH_DISABLE);  // ensure touch is enabled
+003397  000456                  if (oldn != -1)
+003398  000457                      img_SetWord(hndl, oldn, IMAGE_TAG, i+1);
+003399  000458                      img_Disable(hndl, oldn) ;
+003400  000459                  endif
+003401  000460              next
+003402  000461          endif
+003403  000462      next
+003404  000463        
+003405  000464      // display initial form
+003406  000465      CurrentForm := -1 ;
+003407  000466  // End P4.inc
+003408  000467  // Start P5.inc
+003409  000468      ActivateForm(0) ; // need to change this according to first actual form
+003410  000469        
+003411  000470  // End P5.inc
+003412  000471  // Start P6.inc
+003413  000472      touch_Set(TOUCH_ENABLE);                            // enable the touch screen
+003414  000473      oldn := -1 ;
+003415  000474      repeat
+003416  000475        
+003417  000476          // check comms for command, how to NAK invalid command
+003418  000477          if (com_Count() != 0)
+003419  000478              i := serin() ;
+003420  000479              InputCS ^= i ;               // update checksum
+003421  000480                  cmd[cmdi++] := i ;
+003422  000481                   if (   (cmd[0] == READ_OBJ)
+003423  000482                           && (cmdi == 4)         )
+003424  000483                      if (InputCS)
+003425  000484                          nak0() ;
+003426  000485                      else
+003427  000486                          ReadObject(cmd[1], cmd[2]) ;
+003428  000487                      endif
+003429  000488                      cmdi := 0 ;
+003430  000489                  else if (   (cmd[0] == WRITE_OBJ)    // 6 byte write command (gen option)
+003431  000490                           && (cmdi == 6)          )
+003432  000491                      if (InputCS)
+003433  000492                          nak0() ;
+003434  000493                      else
+003435  000494                          WriteObject(cmd[1], cmd[2], cmd[3] << 8 + cmd[4]) ;
+003436  000495                          serout(ACK) ;
+003437  000496                      endif
+003438  000497                      cmdi := 0 ;
+003439  000498                  else if (   (cmd[0] == WRITE_CONTRAST)
+003440  000499                           && (cmdi == 3)         )
+003441  000500                      if (InputCS)
+003442  000501                          nak0() ;
+003443  000502                      else
+003444  000503                          gfx_Contrast(cmd[1]) ;
+003445  000504                          serout(ACK) ;
+003446  000505                      endif
+003447  000506                      cmdi := 0 ;
+003448  000507                  else if (cmdi == 6)    // we have 6 bytes and we've gotten here -> something wrong
+003449  000508                      nak0() ;
+003450  000509                      cmdi := 0 ;
+003451  000510                  endif
+003452  000511          endif   // a character is available
+003453  000512        
+003454  000513        
+003455  000514      // touch code processing
+003456  000515        
+003457  000516          TouchStatus := touch_Get(TOUCH_STATUS);               // get touchscreen status
+003458  000517          ImageTouched := img_Touched(hndl,-1) ;
+003459  000518          if ((TouchStatus == TOUCH_PRESSED) || (TouchStatus == TOUCH_RELEASED) || (TouchStatus == TOUCH_MOVING))
+003460  000519              if ((TouchStatus != TOUCH_RELEASED) && (ImageTouched != oldn) && (oldn != -1))
+003461  000520                  TouchStatus := TOUCH_RELEASED ;       // simulate release if we move off object
+003462  000521              endif
+003463  000522              if (TouchStatus != TOUCH_RELEASED)        // if not released
+003464  000523                  if (oldn != -1)
+003465  000524                      ImageTouched := oldn ;
+003466  000525                  else
+003467  000526                      if (oldn != ImageTouched)
+003468  000527                  oldn := ImageTouched ;
+003469  000528                          TouchStatus := TOUCH_PRESSED ;
+003470  000529                      endif
+003471  000530                  endif
+003472  000531                  TouchXpos  := touch_Get(TOUCH_GETX);
+003473  000532                  TouchYpos  := touch_Get(TOUCH_GETY);
+003474  000533                  TouchState := Ofs_IPD_DOWN ;
+003475  000534              else
+003476  000535                  ImageTouched := oldn ;                     // simulate release of what we touched
+003477  000536                  oldn := -1 ;                    // prevent double release
+003478  000537                  TouchState := Ofs_IPD_RELEASE ;
+003479  000538              endif
+003480  000539              if (ImageTouched != -1)
+003481  000540                          CurInputData := InputControls[ImageTouched] + InputData;
+003482  000541                          InputType := *(CurInputData) ;
+003483  000542                          i := InputType ;
+003484  000543                          if (InputType >= t4Dbutton) i -= 23 ; // adjust to ensure next in gosub
+003485  000544                          gosub (i), (cDipswitch, cKnob, cRockerswitch, cRotaryswitch, cSlider, cTrackbar, cWinbutton, c4DButton, cAniButton, cColorPicker, cUserButton) ;
+003486  000545              endif
+003487  000546          endif
+003488  000547   //       if ((n != -1) && (oldn == -1)) oldn := n ;    // save what we touched in case we move off it
+003489  000548        
+003490  000549          sys_EventsResume() ;
+003491  000550      forever
+003492  000551        
+003493  000552  cDipswitch:
+003494  000553        
+003495  000554  cKnob:
+003496  000555        
+003497  000556  cRockerswitch:
+003498  000557        
+003499  000558  cRotaryswitch:
+003500  000559        
+003501  000560  cSlider:
+003502  000561  cTrackbar:
+003503  000562        
+003504  000563  c4DButton:
+003505  000564  cUserButton:
+003506  000565  cWinbutton:
+003507  000566  gbutton:
+003508  000567        
+003509  000568  cAniButton:
+003510  000569        
+003511  000570  cColorPicker:
+003512  000571        
+003513  000572  endfunc
+003514  000573  // End P6.inc
+Notice: local var 'j' in func 'main' is never used (line 382 file:NoName2.4DGenieS)
 Notice: no execution path to func 'UpdateObjects'
-Notice: local var 'p' in func 'ActivateForm' is never used (line 289 file:NoName2.4DGenieS)
-Notice: local var 'j' in func 'WriteObject' is never used (line 234 file:NoName2.4DGenieS)
-Notice: local var 'k' in func 'WriteObject' is never used (line 234 file:NoName2.4DGenieS)
+Notice: local var 'p' in func 'ActivateForm' is never used (line 298 file:NoName2.4DGenieS)
+Notice: local var 'j' in func 'WriteObject' is never used (line 243 file:NoName2.4DGenieS)
+Notice: local var 'k' in func 'WriteObject' is never used (line 243 file:NoName2.4DGenieS)
 
 
 Symbol Table:
@@ -3421,7 +3539,7 @@ __MAXPROG                          14400  0x00003840 (const dword)  (usage 1)
 __PLATFORM                             1  0x00000001 (const dword)  (not used)
 ABS                                  -13  0xfffffff3 (PmmC func) args[1] r=1  (not used)
 ACK                                    6  0x00000006 (const dword)  (usage 6)
-ActivateForm                        1287  0x00000507 (User func) args[1] r=0  (usage 8)
+ActivateForm                        1405  0x0000057d (User func) args[1] r=0  (usage 8)
 ALICEBLUE                          63455  0x0000f7df (const dword)  (not used)
 ALL                                65535  0x0000ffff (const dword)  (not used)
 ANTIQUEWHITE                       65370  0x0000ff5a (const dword)  (not used)
@@ -3534,7 +3652,6 @@ BUTTON_DOWN                            0  0x00000000 (const dword)  (not used)
 BUTTON_UP                              1  0x00000001 (const dword)  (not used)
 ByteSwap                            -215  0xffffff29 (PmmC func) args[1] r=1  (not used)
 c4DButton                         UNRESOLVED  (not used)
-C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS    2806  0x00000af6 (const ??? 0)  (not used)
 CADETBLUE                          23796  0x00005cf4 (const dword)  (not used)
 cAniButton                        UNRESOLVED  (not used)
 cColorPicker                      UNRESOLVED  (not used)
@@ -3662,7 +3779,7 @@ disp_WriteControl                   -147  0xffffff6d (PmmC func) args[1] r=0  (n
 disp_WriteWord                      -148  0xffffff6c (PmmC func) args[1] r=0  (not used)
 DISPLAY_PAGE                          33  0x00000021 (const dword)  (not used)
 DODGERBLUE                          7327  0x00001c9f (const dword)  (not used)
-DoGFXObjects                        1286  0x00000506 (User func) args[0] r=0  (usage 6)
+DoGFXObjects                        1404  0x0000057c (User func) args[0] r=0  (usage 6)
 DOWN                                   0  0x00000000 (const dword)  (not used)
 DSK                                63490  0x0000f802 (const dword)  (not used)
 ENABLE                                 1  0x00000001 (const dword)  (not used)
@@ -3754,9 +3871,9 @@ FONT3                                  2  0x00000002 (const dword)  (not used)
 FONT_ID                                2  0x00000002 (const dword)  (not used)
 FONT_SIZE                              2  0x00000002 (const dword)  (not used)
 FORESTGREEN                         9284  0x00002444 (const dword)  (not used)
-FormBGcolors                         105  0x00000069FormBGcolors                         105  0x00000069 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 6)
-FormEndIndex                           9  0x00000009FormEndIndex                           9  0x00000009 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 6)
-FormStartIndex                         7  0x00000007FormStartIndex                         7  0x00000007 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 6)
+FormBGcolors                         133  0x00000085FormBGcolors                         133  0x00000085 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 6)
+FormEndIndex                           9  0x00000009FormEndIndex                           9  0x00000009 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 6)
+FormStartIndex                         7  0x00000007FormStartIndex                         7  0x00000007 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 6)
 FRAME_DELAY                           22  0x00000016 (const dword)  (not used)
 FUCHSIA                            63519  0x0000f81f (const dword)  (not used)
 GAINSBORO                          57083  0x0000defb (const dword)  (not used)
@@ -3928,9 +4045,27 @@ I_TOUCHED                           4096  0x00001000 (const dword)  (not used)
 I_X_LOCK                            1024  0x00000400 (const dword)  (not used)
 I_Y_LOCK                            2048  0x00000800 (const dword)  (not used)
 iiLeddigits0                           1  0x00000001 (const ??? 0)  (not used)
-iiLeddigits1                           5  0x00000005 (const ??? 0)  (not used)
+iiLeddigits1                          12  0x0000000c (const ??? 0)  (not used)
+iiLeddigits10                         30  0x0000001e (const ??? 0)  (not used)
+iiLeddigits2                          14  0x0000000e (const ??? 0)  (not used)
+iiLeddigits3                          16  0x00000010 (const ??? 0)  (not used)
+iiLeddigits4                           9  0x00000009 (const ??? 0)  (not used)
+iiLeddigits5                          18  0x00000012 (const ??? 0)  (not used)
+iiLeddigits6                          20  0x00000014 (const ??? 0)  (not used)
+iiLeddigits7                          22  0x00000016 (const ??? 0)  (not used)
+iiLeddigits8                          24  0x00000018 (const ??? 0)  (not used)
+iiLeddigits9                          28  0x0000001c (const ??? 0)  (not used)
 iLeddigits0                            0  0x00000000 (const ??? 0)  (usage 3)
-iLeddigits1                            4  0x00000004 (const ??? 0)  (usage 3)
+iLeddigits1                           11  0x0000000b (const ??? 0)  (usage 3)
+iLeddigits10                          29  0x0000001d (const ??? 0)  (usage 3)
+iLeddigits2                           13  0x0000000d (const ??? 0)  (usage 3)
+iLeddigits3                           15  0x0000000f (const ??? 0)  (usage 3)
+iLeddigits4                            8  0x00000008 (const ??? 0)  (usage 3)
+iLeddigits5                           17  0x00000011 (const ??? 0)  (usage 3)
+iLeddigits6                           19  0x00000013 (const ??? 0)  (usage 3)
+iLeddigits7                           21  0x00000015 (const ??? 0)  (usage 3)
+iLeddigits8                           23  0x00000017 (const ??? 0)  (usage 3)
+iLeddigits9                           27  0x0000001b (const ??? 0)  (usage 3)
 IMAGE_CLUSTER                         10  0x0000000a (const dword)  (not used)
 IMAGE_DELAY                            7  0x00000007 (const dword)  (not used)
 IMAGE_FLAGS                            6  0x00000006 (const dword)  (usage 3)
@@ -3974,9 +4109,9 @@ IMG_WIDTH                             82  0x00000052 (const dword)  (not used)
 INDIANRED                          51947  0x0000caeb (const dword)  (not used)
 INDIGO                             18448  0x00004810 (const dword)  (not used)
 INPUT                                  1  0x00000001 (const dword)  (not used)
-InputControls                         11  0x0000000bInputControls                         11  0x0000000b (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+InputControls                         11  0x0000000bInputControls                         11  0x0000000b (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
 InputCS                              328  0x00000148 (mem) word (global)  (usage 15)
-InputData                             13  0x0000000dInputData                             13  0x0000000d (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 5)
+InputData                             13  0x0000000dInputData                             13  0x0000000d (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 5)
 InputType                             80  0x00000050 (mem) word (global)  (usage 13)
 INVERSE                               64  0x00000040 (const dword)  (not used)
 IO1_PIN                                1  0x00000001 (const dword)  (not used)
@@ -3992,8 +4127,14 @@ islower                             -205  0xffffff33 (PmmC func) args[1] r=1  (n
 isprint                             -208  0xffffff30 (PmmC func) args[1] r=1  (not used)
 isspace                             -209  0xffffff2f (PmmC func) args[1] r=1  (not used)
 iStatictext0                           2  0x00000002 (const ??? 0)  (usage 3)
-iStatictext1                           6  0x00000006 (const ??? 0)  (usage 3)
-iStatictext3                           3  0x00000003 (const ??? 0)  (usage 3)
+iStatictext1                           3  0x00000003 (const ??? 0)  (usage 3)
+iStatictext2                           4  0x00000004 (const ??? 0)  (usage 3)
+iStatictext3                           7  0x00000007 (const ??? 0)  (usage 3)
+iStatictext4                           5  0x00000005 (const ??? 0)  (usage 3)
+iStatictext5                           6  0x00000006 (const ??? 0)  (usage 3)
+iStatictext6                          25  0x00000019 (const ??? 0)  (usage 3)
+iStatictext7                          26  0x0000001a (const ??? 0)  (usage 3)
+iStatictext8                          10  0x0000000a (const ??? 0)  (usage 3)
 isupper                             -204  0xffffff34 (PmmC func) args[1] r=1  (not used)
 iswhite                             -210  0xffffff2e (PmmC func) args[1] r=1  (not used)
 isxdigit                            -203  0xffffff35 (PmmC func) args[1] r=1  (not used)
@@ -4001,13 +4142,13 @@ ITALIC                                32  0x00000020 (const dword)  (not used)
 iterator                            -198  0xffffff3a (PmmC func) args[1] r=0  (not used)
 IVORY                              65534  0x0000fffe (const dword)  (not used)
 KHAKI                              63281  0x0000f731 (const dword)  (not used)
-kKeyboardKeystrokes                  107  0x0000006bkKeyboardKeystrokes                  107  0x0000006b (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (not used)
+kKeyboardKeystrokes                  135  0x00000087kKeyboardKeystrokes                  135  0x00000087 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (not used)
 LANDSCAPE                              0  0x00000000 (const dword)  (usage 3)
 LANDSCAPE_R                            1  0x00000001 (const dword)  (not used)
 LAVENDER                           59199  0x0000e73f (const dword)  (not used)
 LAVENDERBLUSH                      65438  0x0000ff9e (const dword)  (not used)
 LAWNGREEN                          32736  0x00007fe0 (const dword)  (not used)
-ledDigitsDisplay                    1574  0x00000626 (User func) args[3] r=0  (usage 6)
+ledDigitsDisplay                    1692  0x0000069c (User func) args[3] r=0  (usage 6)
 LEFT_POS                               2  0x00000002 (const dword)  (not used)
 LEMONCHIFFON                       65497  0x0000ffd9 (const dword)  (not used)
 LIGHTBLUE                          44764  0x0000aedc (const dword)  (not used)
@@ -4036,7 +4177,7 @@ LPFINE                             43690  0x0000aaaa (const dword)  (not used)
 LPMEDIUM                           13107  0x00003333 (const dword)  (not used)
 LPSOLID                                0  0x00000000 (const dword)  (not used)
 MAGENTA                            63519  0x0000f81f (const dword)  (not used)
-main                                 213  0x000000d5 (User func) args[0] r=0  (not used)
+main                                 331  0x0000014b (User func) args[0] r=0  (not used)
 MAROON                             32768  0x00008000 (const dword)  (not used)
 MAX                                  -15  0xfffffff1 (PmmC func) args[2] r=1  (not used)
 MaxTotObjects                         33  0x00000021 (const dword)  (usage 6)
@@ -4086,23 +4227,23 @@ MINTCREAM                          63487  0x0000f7ff (const dword)  (not used)
 MISTYROSE                          65340  0x0000ff3c (const dword)  (not used)
 MOCCASIN                           65334  0x0000ff36 (const dword)  (not used)
 NAK                                   21  0x00000015 (const dword)  (usage 3)
-nak0                                2164  0x00000874 (User func) args[0] r=0  (usage 12)
+nak0                                2282  0x000008ea (User func) args[0] r=0  (usage 12)
 nAniTimers                             0  0x00000000 (const dword)  (not used)
 NAVAJOWHITE                        65269  0x0000fef5 (const dword)  (not used)
 NAVY                                  16  0x00000010 (const dword)  (not used)
 nInputs                                0  0x00000000 (const dword)  (not used)
-nObjects                               7  0x00000007 (const dword)  (not used)
+nObjects                              31  0x0000001f (const dword)  (not used)
 NOTOUCH                                0  0x00000000 (const dword)  (not used)
-o4Dbuttons                            83  0x00000053o4Dbuttons                            83  0x00000053 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oAngularmeters                        29  0x0000001doAngularmeters                        29  0x0000001d (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oAniButtons                           85  0x00000055oAniButtons                           85  0x00000055 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+o4Dbuttons                           111  0x0000006fo4Dbuttons                           111  0x0000006f (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oAngularmeters                        29  0x0000001doAngularmeters                        29  0x0000001d (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oAniButtons                          113  0x00000071oAniButtons                          113  0x00000071 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
 OBJECT_COLOUR                         18  0x00000012 (const dword)  (not used)
-oColorPickers                         87  0x00000057oColorPickers                         87  0x00000057 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oCoolgauges                           31  0x0000001foCoolgauges                           31  0x0000001f (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oCustomdigitss                        33  0x00000021oCustomdigitss                        33  0x00000021 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oDipSwitchs                           15  0x0000000foDipSwitchs                           15  0x0000000f (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oColorPickers                        115  0x00000073oColorPickers                        115  0x00000073 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oCoolgauges                           31  0x0000001foCoolgauges                           31  0x0000001f (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oCustomdigitss                        33  0x00000021oCustomdigitss                        33  0x00000021 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oDipSwitchs                           15  0x0000000foDipSwitchs                           15  0x0000000f (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
 OFF                                    0  0x00000000 (const dword)  (not used)
-oForms                                35  0x00000023oForms                                35  0x00000023 (mem) word[2] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oForms                                35  0x00000023oForms                                35  0x00000023 (mem) word[2] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
 Ofs_Digits_Digits                      2  0x00000002 (const dword)  (usage 9)
 Ofs_Digits_LeadingBlanks               8  0x00000008 (const dword)  (usage 3)
 Ofs_Digits_Left                        0  0x00000000 (const dword)  (usage 3)
@@ -4131,38 +4272,38 @@ Ofs_String_x1                          6  0x00000006 (const dword)  (not used)
 Ofs_String_x2                         10  0x0000000a (const dword)  (not used)
 Ofs_String_y1                          8  0x00000008 (const dword)  (not used)
 Ofs_String_y2                         12  0x0000000c (const dword)  (not used)
-oGauges                               39  0x00000027oGauges                               39  0x00000027 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oGSliders                             23  0x00000017oGSliders                             23  0x00000017 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oImages                               41  0x00000029oImages                               41  0x00000029 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oKeyboards                            43  0x0000002boKeyboards                            43  0x0000002b (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oKnobs                                17  0x00000011oKnobs                                17  0x00000011 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oGauges                               39  0x00000027oGauges                               39  0x00000027 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oGSliders                             23  0x00000017oGSliders                             23  0x00000017 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oImages                               41  0x00000029oImages                               41  0x00000029 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oKeyboards                            43  0x0000002boKeyboards                            43  0x0000002b (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oKnobs                                17  0x00000011oKnobs                                17  0x00000011 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
 OLDLACE                            65468  0x0000ffbc (const dword)  (not used)
 oldn                                  72  0x00000048 (mem) word (global)  (usage 42)
-oLedDigitsn                          111  0x0000006foLedDigitsn                          111  0x0000006f (mem) word[10] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 6)
-oLeddigitss                           47  0x0000002foLeddigitss                           47  0x0000002f (mem) word[3] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 9)
-oLeds                                 45  0x0000002doLeds                                 45  0x0000002d (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oLedDigitsn                          139  0x0000008boLedDigitsn                          139  0x0000008b (mem) word[55] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 6)
+oLeddigitss                           47  0x0000002foLeddigitss                           47  0x0000002f (mem) word[12] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 9)
+oLeds                                 45  0x0000002doLeds                                 45  0x0000002d (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
 OLIVE                              33792  0x00008400 (const dword)  (not used)
 OLIVEDRAB                          27748  0x00006c64 (const dword)  (not used)
-oMagicObjects                         91  0x0000005boMagicObjects                         91  0x0000005b (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (not used)
-oMeters                               53  0x00000035oMeters                               53  0x00000035 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oMagicObjects                        119  0x00000077oMagicObjects                        119  0x00000077 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (not used)
+oMeters                               71  0x00000047oMeters                               71  0x00000047 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
 ON                                     1  0x00000001 (const dword)  (not used)
 oObjects                               2  0x00000002 (mem) word[34] (global)  (usage 108)
 OPAQUE                                 1  0x00000001 (const dword)  (not used)
-oPinInputs                            81  0x00000051oPinInputs                            81  0x00000051 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oPinOutputs                          103  0x00000067oPinOutputs                          103  0x00000067 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oPinInputs                           109  0x0000006doPinInputs                           109  0x0000006d (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oPinOutputs                          131  0x00000083oPinOutputs                          131  0x00000083 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
 ORANGE                             64800  0x0000fd20 (const dword)  (not used)
 ORANGERED                          64032  0x0000fa20 (const dword)  (not used)
 ORCHID                             56218  0x0000db9a (const dword)  (not used)
-oRockerSwitchs                        19  0x00000013oRockerSwitchs                        19  0x00000013 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oRotarySwitchs                        21  0x00000015oRotarySwitchs                        21  0x00000015 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oScopes                               75  0x0000004boScopes                               75  0x0000004b (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (not used)
-oSmartGauges                          93  0x0000005doSmartGauges                          93  0x0000005d (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (not used)
-oSmartKnobs                           97  0x00000061oSmartKnobs                           97  0x00000061 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (not used)
-oSmartSliders                         95  0x0000005foSmartSliders                         95  0x0000005f (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (not used)
-oSoundss                             101  0x00000065oSoundss                             101  0x00000065 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oSpectrums                            73  0x00000049oSpectrums                            73  0x00000049 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oStaticTexts                          63  0x0000003foStaticTexts                          63  0x0000003f (mem) word[5] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oStringss                             55  0x00000037oStringss                             55  0x00000037 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oRockerSwitchs                        19  0x00000013oRockerSwitchs                        19  0x00000013 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oRotarySwitchs                        21  0x00000015oRotarySwitchs                        21  0x00000015 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oScopes                              103  0x00000067oScopes                              103  0x00000067 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (not used)
+oSmartGauges                         121  0x00000079oSmartGauges                         121  0x00000079 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (not used)
+oSmartKnobs                          125  0x0000007doSmartKnobs                          125  0x0000007d (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (not used)
+oSmartSliders                        123  0x0000007boSmartSliders                        123  0x0000007b (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (not used)
+oSoundss                             129  0x00000081oSoundss                             129  0x00000081 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oSpectrums                           101  0x00000065oSpectrums                           101  0x00000065 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oStaticTexts                          81  0x00000051oStaticTexts                          81  0x00000051 (mem) word[10] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oStringss                             73  0x00000049oStringss                             73  0x00000049 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
 OT_ACTIVATE                          103  0x00000067 (const dword)  (usage 2)
 OT_MAGIC                             108  0x0000006c (const dword)  (usage 2)
 OT_NEXTFRAME                         104  0x00000068 (const dword)  (usage 2)
@@ -4172,20 +4313,21 @@ OT_PREVSTRING                        107  0x0000006b (const dword)  (not used)
 OT_REPORT                            100  0x00000064 (const dword)  (usage 2)
 OT_SETANOTHER                        102  0x00000066 (const dword)  (usage 2)
 OT_SETCONST                          101  0x00000065 (const dword)  (usage 2)
-oTanks                                77  0x0000004doTanks                                77  0x0000004d (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oThermometers                         57  0x00000039oThermometers                         57  0x00000039 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oTimers                               99  0x00000063oTimers                               99  0x00000063 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oTrackbars                            25  0x00000019oTrackbars                            25  0x00000019 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oUserButtons                          89  0x00000059oUserButtons                          89  0x00000059 (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oUserImagess                          79  0x0000004foUserImagess                          79  0x0000004f (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oUserleds                             59  0x0000003boUserleds                             59  0x0000003b (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oTanks                               105  0x00000069oTanks                               105  0x00000069 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oThermometers                         75  0x0000004boThermometers                         75  0x0000004b (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oTimers                              127  0x0000007foTimers                              127  0x0000007f (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oTrackbars                            25  0x00000019oTrackbars                            25  0x00000019 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oUserButtons                         117  0x00000075oUserButtons                         117  0x00000075 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oUserImagess                         107  0x0000006boUserImagess                         107  0x0000006b (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oUserleds                             77  0x0000004doUserleds                             77  0x0000004d (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
 OUTLINE                                1  0x00000001 (const dword)  (not used)
 OUTLINE_COLOUR                        24  0x00000018 (const dword)  (not used)
 OUTPUT                                 0  0x00000000 (const dword)  (not used)
 OutputCS                             330  0x0000014a (mem) word (global)  (usage 9)
 OVF                                  -21  0xffffffeb (PmmC func) args[0] r=1  (not used)
-oVideos                               61  0x0000003doVideos                               61  0x0000003d (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
-oWinButtons                           27  0x0000001boWinButtons                           27  0x0000001b (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oVideos                               79  0x0000004foVideos                               79  0x0000004f (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+oWinButtons                           27  0x0000001boWinButtons                           27  0x0000001b (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (usage 3)
+P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS    2806  0x00000af6 (const ??? 0)  (not used)
 PALEGOLDENROD                      61269  0x0000ef55 (const dword)  (not used)
 PALEGREEN                          40915  0x00009fd3 (const dword)  (not used)
 PALETURQUOISE                      44925  0x0000af7d (const dword)  (not used)
@@ -4225,7 +4367,7 @@ RANDOM_LO                             32  0x00000020 (const dword)  (not used)
 READ_OBJ                               0  0x00000000 (const dword)  (usage 3)
 READ_PAGE                             34  0x00000022 (const dword)  (not used)
 ReadCmd                              128  0x00000080 (const dword)  (not used)
-ReadObject                          1988  0x000007c4 (User func) args[2] r=0  (usage 3)
+ReadObject                          2106  0x0000083a (User func) args[2] r=0  (usage 3)
 RED                                63488  0x0000f800 (const dword)  (not used)
 REPORT_EVENT                           7  0x00000007 (const dword)  (usage 2)
 REPORT_MAGIC_EVENT_BYTES              10  0x0000000a (const dword)  (not used)
@@ -4233,7 +4375,7 @@ REPORT_MAGIC_EVENT_DBYTES             11  0x0000000b (const dword)  (not used)
 REPORT_OBJ                             5  0x00000005 (const dword)  (usage 3)
 reserved                            -294  0xfffffeda (PmmC func) args[0] r=0  (not used)
 RIGHT_POS                              4  0x00000004 (const dword)  (not used)
-rKeyboardRoutines                    109  0x0000006drKeyboardRoutines                    109  0x0000006d (mem) word[1] (member of C:\Users\Grégoire\Desktop\4d\4Dsys_Genie_GoTronic\NoName2.4DWork\NoName2.4DGenieS)  (not used)
+rKeyboardRoutines                    137  0x00000089rKeyboardRoutines                    137  0x00000089 (mem) word[1] (member of P:\Mes documents\Téléchargements\4D-System-LCD43PT-Arduino-master\4D_System_ViSi_Genie\NoName2.4DWork\NoName2.4DGenieS)  (not used)
 ROSYBROWN                          48241  0x0000bc71 (const dword)  (not used)
 ROYALBLUE                          17244  0x0000435c (const dword)  (not used)
 RUNFLASH                             128  0x00000080 (const dword)  (usage 3)
@@ -4248,14 +4390,14 @@ SEASHELL                           65469  0x0000ffbd (const dword)  (not used)
 SEED                                 -20  0xffffffec (PmmC func) args[1] r=0  (not used)
 SELECT                                 3  0x00000003 (const dword)  (not used)
 SELECT_MULTIPLE                        4  0x00000004 (const dword)  (not used)
-SendReport                          2099  0x00000833 (User func) args[4] r=0  (usage 5)
+SendReport                          2217  0x000008a9 (User func) args[4] r=0  (usage 5)
 serin                                 -1  0xffffffff (PmmC func) args[0] r=1  (usage 3)
 serin1                              -140  0xffffff74 (PmmC func) args[0] r=1  (not used)
 serinX                               N/A         N/A (macro) serin   (not used)
 serout                                -3  0xfffffffd (PmmC func) args[1] r=0  (usage 15)
 serout1                             -141  0xffffff73 (PmmC func) args[1] r=0  (not used)
-seroutCS                            2179  0x00000883 (User func) args[1] r=0  (usage 15)
-seroutOcs                           2149  0x00000865 (User func) args[0] r=0  (usage 3)
+seroutCS                            2297  0x000008f9 (User func) args[1] r=0  (usage 15)
+seroutOcs                           2267  0x000008db (User func) args[0] r=0  (usage 3)
 seroutX                              N/A         N/A (macro) serout   (not used)
 setbaud                               -4  0xfffffffc (PmmC func) args[1] r=0  (not used)
 SIENNA                             41605  0x0000a285 (const dword)  (not used)
@@ -4569,7 +4711,7 @@ WRITE_PAGE                            35  0x00000023 (const dword)  (not used)
 WRITE_STR                              2  0x00000002 (const dword)  (not used)
 WRITE_STRU                             3  0x00000003 (const dword)  (not used)
 WriteCmd                               0  0x00000000 (const dword)  (not used)
-WriteObject                         1870  0x0000074e (User func) args[3] r=0  (usage 11)
+WriteObject                         1988  0x000007c4 (User func) args[3] r=0  (usage 11)
 X_MAX                                  0  0x00000000 (const dword)  (not used)
 X_ORG                                  6  0x00000006 (const dword)  (not used)
 X_ORIGIN                              30  0x0000001e (const dword)  (not used)

@@ -20,7 +20,7 @@ Form
     Name                         Form0
     Alias                        Form0
     Bgtype                       Color
-    Color                        NAVY
+    Color                        BLACK
     Image                        (None)
     Source.Height                0
     Source.Left                  0
@@ -36,17 +36,17 @@ end
 LedDigits
     Name                         Leddigits0
     Alias                        Leddigits0
-    Color                        NAVY
+    Color                        BLACK
     Decimals                     0
-    Digits                       2
-    Height                       68
+    Digits                       3
+    Height                       58
     LeadingZero                  Yes
-    Left                         60
-    OutlineColor                 NAVY
-    Palette.High                 YELLOW
-    Palette.Low                  NAVY
-    Top                          36
-    Width                        98
+    Left                         312
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          0
+    Width                        92
     OnChanged                    ''
     OnTouchMoving                ''
     OnTouchPressed               ''
@@ -57,37 +57,18 @@ StaticText
     Alias                        Statictext0
     Alignment                    Left
     AutoSize                     Yes
-    Caption                      T°
-    Color                        BLACK
-    Font.Color                   YELLOW
-    Font.Effects                 []
-    Font.Name                    'Comic Sans MS'
-    Font.Size                    36
-    Font.Style                   [Bold]
-    Height                       67
-    Left                         0
-    Top                          36
-    Transparent                  Yes
-    Width                        62
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext3
-    Alias                        Statictext3
-    Alignment                    Center
-    AutoSize                     Yes
-    Caption                      'PROJET STI2D'
+    Caption                      t=
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
-    Font.Name                    'Comic Sans MS'
-    Font.Size                    22
-    Font.Style                   [Bold]
-    Height                       39
-    Left                         0
+    Font.Name                    'Franklin Gothic Medium Cond'
+    Font.Size                    36
+    Font.Style                   []
+    Height                       61
+    Left                         272
     Top                          0
     Transparent                  Yes
-    Width                        478
+    Width                        38
     WordWrap                     Yes
 end
 Timer
@@ -97,41 +78,345 @@ Timer
     Interval                     40
     OnTimer                      ''
 end
-LedDigits
-    Name                         Leddigits1
-    Alias                        Leddigits1
-    Color                        NAVY
-    Decimals                     0
-    Digits                       2
-    Height                       68
-    LeadingZero                  Yes
-    Left                         176
-    OutlineColor                 NAVY
-    Palette.High                 YELLOW
-    Palette.Low                  NAVY
-    Top                          36
-    Width                        98
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
 StaticText
     Name                         Statictext1
     Alias                        Statictext1
     Alignment                    Left
     AutoSize                     Yes
     Caption                      .
-    Color                        BLACK
-    Font.Color                   YELLOW
+    Color                        WHITE
+    Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    'Comic Sans MS'
     Font.Size                    36
     Font.Style                   [Bold]
     Height                       67
-    Left                         152
-    Top                          44
+    Left                         398
+    Top                          0
+    Transparent                  Yes
+    Width                        15
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext2
+    Alias                        Statictext2
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      f=
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Franklin Gothic Medium Cond'
+    Font.Size                    36
+    Font.Style                   []
+    Height                       61
+    Left                         0
+    Top                          116
+    Transparent                  Yes
+    Width                        37
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext4
+    Alias                        Statictext4
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      P=
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Franklin Gothic Medium Cond'
+    Font.Size                    36
+    Font.Style                   []
+    Height                       61
+    Left                         0
+    Top                          0
+    Transparent                  Yes
+    Width                        49
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext5
+    Alias                        Statictext5
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      v=
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Franklin Gothic Medium Cond'
+    Font.Size                    36
+    Font.Style                   []
+    Height                       61
+    Left                         4
+    Top                          211
+    Transparent                  Yes
+    Width                        42
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext3
+    Alias                        Statictext3
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      .
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Comic Sans MS'
+    Font.Size                    36
+    Font.Style                   [Bold]
+    Height                       67
+    Left                         104
+    Top                          108
     Transparent                  Yes
     Width                        21
     WordWrap                     Yes
+end
+LedDigits
+    Name                         Leddigits4
+    Alias                        Leddigits4
+    Color                        BLACK
+    Decimals                     0
+    Digits                       6
+    Height                       50
+    LeadingZero                  Yes
+    Left                         48
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          0
+    Width                        227
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext8
+    Alias                        Statictext8
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      .
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Comic Sans MS'
+    Font.Size                    36
+    Font.Style                   [Bold]
+    Height                       67
+    Left                         108
+    Top                          204
+    Transparent                  Yes
+    Width                        21
+    WordWrap                     Yes
+end
+LedDigits
+    Name                         Leddigits1
+    Alias                        Leddigits1
+    Color                        BLACK
+    Decimals                     0
+    Digits                       2
+    Height                       54
+    LeadingZero                  Yes
+    Left                         124
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          120
+    Width                        68
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits2
+    Alias                        Leddigits2
+    Color                        BLACK
+    Decimals                     0
+    Digits                       2
+    Height                       54
+    LeadingZero                  Yes
+    Left                         48
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          218
+    Width                        68
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits3
+    Alias                        Leddigits3
+    Color                        BLACK
+    Decimals                     0
+    Digits                       2
+    Height                       54
+    LeadingZero                  Yes
+    Left                         128
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          218
+    Width                        68
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits5
+    Alias                        Leddigits5
+    Color                        BLACK
+    Decimals                     0
+    Digits                       2
+    Height                       54
+    LeadingZero                  Yes
+    Left                         412
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          116
+    Width                        68
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits6
+    Alias                        Leddigits6
+    Color                        BLACK
+    Decimals                     0
+    Digits                       2
+    Height                       54
+    LeadingZero                  Yes
+    Left                         344
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          116
+    Width                        68
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits7
+    Alias                        Leddigits7
+    Color                        BLACK
+    Decimals                     0
+    Digits                       2
+    Height                       54
+    LeadingZero                  Yes
+    Left                         40
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          120
+    Width                        68
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits8
+    Alias                        Leddigits8
+    Color                        BLACK
+    Decimals                     0
+    Digits                       2
+    Height                       60
+    LeadingZero                  Yes
+    Left                         412
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          0
+    Width                        66
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext6
+    Alias                        Statictext6
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      Cx=
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Franklin Gothic Medium Cond'
+    Font.Size                    36
+    Font.Style                   []
+    Height                       61
+    Left                         280
+    Top                          112
+    Transparent                  Yes
+    Width                        67
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext7
+    Alias                        Statictext7
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      s=
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Franklin Gothic Medium Cond'
+    Font.Size                    36
+    Font.Style                   []
+    Height                       61
+    Left                         288
+    Top                          211
+    Transparent                  Yes
+    Width                        44
+    WordWrap                     Yes
+end
+LedDigits
+    Name                         Leddigits9
+    Alias                        Leddigits9
+    Color                        BLACK
+    Decimals                     0
+    Digits                       2
+    Height                       54
+    LeadingZero                  Yes
+    Left                         336
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          218
+    Width                        68
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits10
+    Alias                        Leddigits10
+    Color                        BLACK
+    Decimals                     0
+    Digits                       2
+    Height                       54
+    LeadingZero                  Yes
+    Left                         412
+    OutlineColor                 BLACK
+    Palette.High                 WHITE
+    Palette.Low                  BLACK
+    Top                          218
+    Width                        68
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
 end
