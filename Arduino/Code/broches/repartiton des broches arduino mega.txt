@@ -1,0 +1,45 @@
+Shield
+NC
+
+Analogique
+A0: Keypad
+A1: Keypad
+A2: Keypad
+A3: Keypad
+A4: Keypad
+A5: Keypad
+A6: Keypad
+A7: Keypad
+A8: FORCE
+A9: FORCE
+
+Digital
+D0 : RX rs232 non utilise
+D1 : TX rs232 non utilise
+D2 : NC
+D3 : NC
+D4 : Shield TFT
+D5 : NC
+D6 : Magnetique
+D7 : NC
+D8 : Shield TFT
+D9 : Shield TFT
+D10 : Shield TFT
+D11 : Shield TFT
+D12 : Shield TFT
+D13 : Shield TFT
+
+I2C
+SDA : BMP280 , MCP9808
+SCL : BMP280 , MCP9808
+
+Alimentation
+Vin : NC
+GND : NC
+5V : NC
+3.3V : NC
+Vref : NC
+
+Divers
+Ioref : NC
+Reset : NC

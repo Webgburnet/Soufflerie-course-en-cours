@@ -1,36 +1,31 @@
-#define magnet = 2;
-
 long temps;
 int a = 0;
 int n;
-
+int magnet = 6;
 void setup() {
   // put your setup code here, to run once:
     Serial.begin(9600);
-    temps = millis();
+    temps = millis(); //initilisation du chronometr
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
   
-    if (digitalRead(magnet) == HIGH){
-      n++;
-      Serial.print("magnet HIGH : ");
-      Serial.println(n);
+    if (digitalRead(magnet) == HIGH && a == 1){
+      n++; // nombre de révolution
       a = 0 ; 
-      do {
-        if (digitalRead(magnet) == LOW ){
+    } 
+     if (digitalRead(magnet) == LOW ){
           a = 1;
-          Serial.print("magnet LOW : ");
-          Serial.println(n);
         }
-      }
-      while (a == 0);
-    }
+ 
+    
         
     if ((millis()- temps) >= 1000){
-      Serial.print(n*2);
-      Serial.println("rad/s");
+      Serial.print(n);
+      Serial.println(" tours");
+      Serial.print(n*2*3.14);
+      Serial.println(" rad/s");
       temps = millis();
       n=0;
     }
