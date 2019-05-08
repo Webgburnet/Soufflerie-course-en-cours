@@ -1,9 +1,9 @@
 # Soufflerie-course-en-cours
 
 ## Logiciels
-| Arduino |  Fritzing | Eagle |
-| :-----: | :------: | :-----: |
-| ![](/icone/Arduino.png)  ![](/icone/Circuits.io.png) | ![](/icone/) | ![](/icone/) |
+| Arduino |  Fritzing |
+| :-----: | :------: |
+| ![](/icone/Arduino.png)  ![](/icone/Fritzing.png) |
 
 ## Composants
 | Arduino | Adafruit | DFRobot | SeeedStudio |
@@ -23,7 +23,7 @@
 ### SeeedStudio
 | BME280 | BMP280 | MCP9808 | Magnetique |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| ![](/composants/SeeedStudio/Grove_BME280.jpg) | ![](/composants/SeeedStudio/Grove_BMP280.jpg) | ![](/composants/SeeedStudio/Grove_MCP9808.JPG) | ![](/composants/SeeedStudio/Grove_Magnetic_switch.jpg_) |
+| ![](/composants/SeeedStudio/Grove_BME280.jpg) | ![](/composants/SeeedStudio/Grove_BMP280.jpg) | ![](/composants/SeeedStudio/Grove_MCP9808.JPG) | ![](/composants/SeeedStudio/Grove_Magnetic_switch.jpg) |
 
 | Keypad | Cable Grove | NC |  NC |
 | :-------------: | :-------------: | :-------------: | :-------------: |
