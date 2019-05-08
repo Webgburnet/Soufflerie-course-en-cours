@@ -3,7 +3,7 @@
 ## Logiciels
 | Arduino |  Fritzing |
 | :-----: | :------: |
-| ![](/icone/Arduino.png)  ![]| (/icone/Fritzing.png) |
+| ![](/icone/Arduino.png) | ![](/icone/Fritzing.png) |
 
 ## Composants
 | Arduino | Adafruit | DFRobot | SeeedStudio |
