@@ -50,16 +50,16 @@
 * Shield Grove Mega
 
 ### Analogique
-* A0 : Keypad
-* A1 : Keypad
-* A2 : Keypad
-* A3 : Keypad
-* A4 : Keypad
-* A5 : Keypad
-* A6 : Keypad
-* A7 : Keypad
-* A8 : FORCE
-* A9 : FORCE
+* A0 : Keypad Ligne 3
+* A1 : Keypad Ligne 2
+* A2 : Keypad Colonne 0
+* A3 : Keypad Ligne 1
+* A4 : Keypad NC
+* A5 : Keypad Ligne 0
+* A6 : Keypad Colonne 2
+* A7 : Keypad Colonne 1
+* A8 : FORCE DOUT
+* A9 : FORCE SCK
 
 ### Digital
 * D0 : RX rs232 non utilise
