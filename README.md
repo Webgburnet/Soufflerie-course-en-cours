@@ -1,43 +1,85 @@
 # Soufflerie-course-en-cours
 
+## Logiciels
+| Arduino |  Fritzing | Eagle |
+| :-----: | :------: | :-----: |
+| ![](/icone/Arduino.png)  ![](/icone/Circuits.io.png) | ![](/icone/) | ![](/icone/) |
+
 ## Composants
+| Arduino | Adafruit | DFRobot | SeeedStudio |
+| :-----: | :------: | :-----: | :---------: 
+| ![](/icone/Arduino.png) | ![](/icone/Adafruit.png)| ![](/icone/DFRobot.png) | ![](/icone/Seeed_Studio.png) |
 
-### Arduino_Uno
-![Arduino_Uno]()
-
-## Branchement
-![Fritzing]()
+### Arduino
+| Arduino Mega  |
+| :-------------: |
+| ![](/composants/Arduino%20Mega.jpg) |
 
 ### Shield
-* NC
+| Shield Grove Mega |
+| :-------------: |
+| ![](/composants/SeeedStudio/Shield_Grove_Mega.jpg) |
+ 
+### SeeedStudio
+| BME280 | BMP280 | MCP9808 | Magnetique |
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| ![](/composants/SeeedStudio/Grove_BME280.jpg) | ![](/composants/SeeedStudio/Grove_BMP280.jpg) | ![](/composants/SeeedStudio/Grove_MCP9808.JPG) | ![](/composants/SeeedStudio/Grove_Magnetic_switch.jpg_) |
+
+| Keypad | Cable Grove | NC |  NC |
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| ![](/composants/SeeedStudio/Grove_keypad12.jpg) | ![](/composants/SeeedStudio/Grove_Cable.jpg) | NC | NC |
+
+### Adafruit
+| TFT 2.8' |
+| :-------------: |
+| ![](/composants/Adafruit/Adafruit_2.8_TFT_Touch_Shield.jpg) |
+
+### DFRobot
+| Capteur Force |
+| :-------------: |
+| ![](/composants/DFRobot/DFRobot_Weight_Sensor_Module.jpg) |
+
+## Branchement
+| Fritzing |
+| :-------------: |
+| ![](/icone/Fritzing.png) |
+
+![](/fritzing/Untitled_Sketch.png)
+
+### Shield
+* Shield Grove Mega
 
 ### Analogique
-* A0: NC
-* A1: NC
-* A2: NC
-* A3: NC
-* A4: NC
-* A5: NC
+* A0 : Keypad
+* A1 : Keypad
+* A2 : Keypad
+* A3 : Keypad
+* A4 : Keypad
+* A5 : Keypad
+* A6 : Keypad
+* A7 : Keypad
+* A8 : FORCE
+* A9 : FORCE
 
 ### Digital
 * D0 : RX rs232 non utilise
 * D1 : TX rs232 non utilise
 * D2 : NC
 * D3 : NC
-* D4 : NC
+* D4 : Shield TFT
 * D5 : NC
-* D6 : NC
+* D6 : Magnetique
 * D7 : NC
-* D8 : NC
-* D9 : NC
-* D10 : NC
-* D11 : NC
-* D12 : NC
-* D13 : NC 
+* D8 : Shield TFT
+* D9 : Shield TFT
+* D10 : Shield TFT
+* D11 : Shield TFT
+* D12 : Shield TFT
+* D13 : Shield TFT
 
 ### I2C
-* SDA : NC
-* SCL : NC
+* SDA : BMP280 , MCP9808
+* SCL : BMP280 , MCP9808
 
 ### Alimentation
 * Vin : NC
